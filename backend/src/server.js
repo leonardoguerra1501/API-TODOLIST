@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const app = require('./app');
 const dotenv = require('dotenv');
 
