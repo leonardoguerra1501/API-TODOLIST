@@ -8,5 +8,6 @@ router.get('/', (req,res) => {
 });
 
 router.get('/tasks',tasksController.getAll);
+router.post('/tasks',tasksController.createTask);
 
 module.exports = router;
